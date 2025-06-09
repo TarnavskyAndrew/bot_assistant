@@ -53,7 +53,7 @@ Here's what it can do:
 └── root_package/
     ├── pyproject.toml
     ├── poetry.lock
-    ├── Dockerfile/
+    ├── Dockerfile
     ├── README.md
     ├── src/
     │   └── bot_assistant/
@@ -69,7 +69,7 @@ Here's what it can do:
     ├── .vscode/
     ├── .dockerignore
     ├── .gitignore
-    └── bot_diagram.svg/
+    └── bot_diagram.svg
 ```
 
 

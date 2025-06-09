@@ -20,7 +20,7 @@ project_tree = {
     "root_package/": {
         "pyproject.toml": None,
         "poetry.lock": None,
-        "Dockerfile/": None,
+        "Dockerfile": None,
         "README.md": None,
         "src/": {
             "bot_assistant/": {
@@ -38,7 +38,7 @@ project_tree = {
         ".vscode/": None,
         ".dockerignore": None,
         ".gitignore": None,
-        "bot_diagram.svg/": None,
+        "bot_diagram.svg": None,
     }
 }
 
@@ -56,7 +56,7 @@ print("Структура проекту збережена в './project_tree.t
 └── root_package/
     ├── pyproject.toml
     ├── poetry.lock
-    ├── Dockerfile/
+    ├── Dockerfile
     ├── README.md
     ├── src/
     │   └── bot_assistant/
@@ -72,5 +72,5 @@ print("Структура проекту збережена в './project_tree.t
     ├── .vscode/
     ├── .dockerignore
     ├── .gitignore
-    └── bot_diagram.svg/
+    └── bot_diagram.svg
 """
