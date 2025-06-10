@@ -22,6 +22,7 @@ project_tree = {
         "poetry.lock": None,
         "Dockerfile": None,
         "README.md": None,
+        "CHANGELOG.md": None,
         "src/": {
             "bot_assistant/": {
                 "main.py": None,
@@ -58,6 +59,7 @@ print("Структура проекту збережена в './project_tree.t
     ├── poetry.lock
     ├── Dockerfile
     ├── README.md
+    ├── CHANGELOG.md
     ├── src/
     │   └── bot_assistant/
     │       ├── main.py

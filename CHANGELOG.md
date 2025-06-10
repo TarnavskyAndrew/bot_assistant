@@ -5,8 +5,18 @@
 All notable changes to this project will be documented in this file.
 
 ---
+# Personal CLI assistant for managing contacts. Built with Python.
+
+
+## Changelog
+All notable changes to this project will be documented in this file.
+
 <details>
 <summary>Bot Assistant — Changelog</summary>
+
+---
+<details>
+<summary>[1.2.0] - 2025-06-10</summary>
 
 ## [1.2.0] - 2025-06-10
 ### Added
@@ -20,6 +30,11 @@ All notable changes to this project will be documented in this file.
 - Refined logging for startup and greetings
 
 ---
+</details>
+
+
+<details>
+<summary>[1.1.0] - 2025-06-05</summary>
 
 ## [1.1.0] - 2025-06-05
 ### Added
@@ -31,6 +46,11 @@ Refactored `help` command:
 - Multilingual descriptions and usage examples
 
 ---
+</details>
+
+
+<details>
+<summary>[1.0.0] - 2025-06-01</summary>
 
 ## [1.0.0] - 2025-06-01
 ### Added
@@ -41,6 +61,7 @@ Refactored `help` command:
 - Data persistence with addressbook.pkl
 - Language switching between Ukrainian and English
 
+---
+</details>
 </details>
 
----

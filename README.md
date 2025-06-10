@@ -60,6 +60,7 @@ Here's what it can do:
     ├── poetry.lock
     ├── Dockerfile
     ├── README.md
+    ├── CHANGELOG.md
     ├── src/
     │   └── bot_assistant/
     │       ├── main.py
@@ -89,10 +90,18 @@ The project is in progress and will be improved.
 git clone https://github.com/TarnavskyAndrew/bot_assistant
 ```
 
-- `pip install poetry`
-- `poetry install`
-- `poetry shell`
-- `poetry run run-bot`
+```bash
+pip install poetry
+```
+```bash
+poetry install
+```
+```bash
+poetry shell
+```
+```bash
+poetry run run-bot
+```
 
 ---
 
@@ -119,5 +128,6 @@ docker run -it tarnavsky/bot_assistant:latest
 
 ```bash
 https://hub.docker.com/repository/docker/tarnavsky/bot_assistant
+```
 
 </details>
