@@ -13,7 +13,6 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [1.2.0] - 2025-06-10
 ### Added
 `hello` command enhancements:
 - Greets user based on last visit timestamp
@@ -33,7 +32,6 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [1.1.0] - 2025-06-05
 ### Added
 - Logging for help and other core commands
 - Centralized translation support via translate.py
@@ -51,7 +49,6 @@ Refactored `help` command:
 
 ---
 
-## [1.0.0] - 2025-06-01
 ### Added
 - Initial implementation of CLI assistant
 - Basic command set:

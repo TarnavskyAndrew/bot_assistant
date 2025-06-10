@@ -1,4 +1,4 @@
-# My Python Projects
+# Personal CLI assistant for managing contacts.
 
 Welcome to my repository with Python projects!  
 Here I learn, practice and improve my coding skills.
@@ -151,7 +151,6 @@ https://hub.docker.com/repository/docker/tarnavsky/bot_assistant
 
 ---
 
-## [1.2.0] - 2025-06-10
 ### Added
 `hello` command enhancements:
 - Greets user based on last visit timestamp
@@ -171,7 +170,6 @@ https://hub.docker.com/repository/docker/tarnavsky/bot_assistant
 
 ---
 
-## [1.1.0] - 2025-06-05
 ### Added
 - Logging for help and other core commands
 - Centralized translation support via translate.py
@@ -189,7 +187,6 @@ Refactored `help` command:
 
 ---
 
-## [1.0.0] - 2025-06-01
 ### Added
 - Initial implementation of CLI assistant
 - Basic command set:
