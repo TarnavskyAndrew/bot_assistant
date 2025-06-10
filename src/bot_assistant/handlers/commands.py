@@ -1,12 +1,14 @@
-# from colorama import Fore, Style
+from colorama import Fore, Style
 from bot_assistant.utils.logger import logger
 from bot_assistant.models.record import Record
 from bot_assistant.utils.decorators import input_error
 from bot_assistant.utils.translate import translate
 from bot_assistant.utils.lang import choose_language
+from bot_assistant.utils.jokes import get_random_joke
 from bot_assistant.utils.region import get_valid_region
 from bot_assistant.models.address_book import AddressBook
 from bot_assistant.utils.backup import create_backup, restore_backup
+from bot_assistant.utils.visit_tracker import get_last_visit_message, save_visit_now
 from bot_assistant.utils.input_validators import (
     get_record,
     format_error,
@@ -251,9 +253,31 @@ def restore_command(args, book):
     return result
 
 
+# Функція виводить вітальне повідомлення з урахуванням часу останнього візиту та додає випадковий позитивне повідомлення
+@input_error
+def hello():
+    message = get_last_visit_message()
+    joke = get_random_joke()
+    
+    logger.info("User greeted - showing visit message and joke.")
+    logger.debug("Visit message: %s", message)
+    logger.debug("Joke shown: %s", joke)
+    
+    response = f"{message}"    
+    if joke:
+        response += f"\n\n   {Fore.BLUE}{translate('joke_or_quote')}\n  {joke}{Fore.RESET}"        
+    response += f"\n\n  {translate('help_prompt')}"  
+      
+    save_visit_now()
+    return response
+    # return f"{Fore.BLUE}{response}{Fore.RESET}"
+
+
+
 # # Функція показує список доступних команд.
 # @input_error
 # def show_help(*args):
 #     commands = translate("help_list")
 #     header = translate("help_header")
 #     return header + "\n" + "\n".join(commands)
+

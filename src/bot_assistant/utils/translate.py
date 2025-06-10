@@ -13,7 +13,8 @@ translations = {
         "change_success": "Phone updated.",
         "contact_not_found": "Contact not found.",
         "empty_input": "Empty input. Type a command like 'hello' or 'help'.",
-        "help_prompt": "Hello! How can I help you?",
+        # "help_prompt": "Hello! How can I help you?",
+        "help_prompt": "How can I help you?",
         "enter_a_command": "Enter a command:",
         "show_all_contacts": "Showing all contacts:",
         "delete_contact": "Contact: {name} deleted.",
@@ -51,7 +52,15 @@ translations = {
         "no_backup": "No backup file found.",
         "no_contacts_yet": "No contacts yet.",
         "phone_already_exists": "Phone: {phone} already exists for this contact",
+        # welcome back:
+        "first_visit": "Hey! Looks like this is your first time here. Glad to meet you!",
+        "visit_message_days": "Welcome back! It's been {days} day(s) and {hours} hour(s) since your last visit. How are you?",
+        "visit_message_hours": "Welcome back! It's been {hours} hour(s) since your last visit.",
+        "welcome_back_soon": "You just visited recently. Still good to see you!",
+        "visit_parse_error": "Could not read your last visit time. Welcome anyway!",
+        "joke_or_quote": "A little good mood:",         
         # "language_set": "Language set: {lang}",
+        # help header: 
         "help_header": "Available commands:",
         "help_table": """        
 
@@ -79,7 +88,8 @@ restore         — Restore backup           | restore
         "change_success": "Номер оновлено.",
         "contact_not_found": "Контакт не знайдено.",
         "empty_input": "Порожній ввід. Введіть команду, наприклад 'hello' або 'help'.",
-        "help_prompt": "Привіт! Чим можу допомогти?",
+        # "help_prompt": "Привіт! Чим можу допомогти?",
+        "help_prompt": "Чим можу допомогти?",
         "enter_a_command": "Введіть команду:",
         "show_all_contacts": "Показ усіх контактів:",
         "delete_contact": "Контакт: {name} видалено.",
@@ -116,7 +126,15 @@ restore         — Restore backup           | restore
         "restore_failed": "Не вдалося відновити резервну копію.",
         "no_backup": "Файл резервної копії не знайдено.",
         "no_contacts_yet": "Поки що немає контактів.",
-        "phone_already_exists": "Телефон: {phone} вже існує для цього контакту",        
+        "phone_already_exists": "Телефон: {phone} вже існує для цього контакту",  
+        # welcome back:
+        "first_visit": "Привіт! Схоже, Ви тут уперше. Радий знайомству!",
+        "visit_message_days": "З поверненням! Минуло {days} днiв і {hours} годин з моменту останнього візиту. Як справи?",
+        "visit_message_hours": "З поверненням! Минуло {hours} годин з моменту останнього візиту.",
+        "welcome_back_soon": "Ти щойно заходив. Все одно приємно тебе бачити!",
+        "visit_parse_error": "Не вдалося зчитати час останнього візиту. Вітаю!",
+        "joke_or_quote": "Трохи гарного настрою:",
+        # help header:     
         "help_header": "Доступні команди:",
         "help_table": """
             

@@ -15,6 +15,7 @@ from bot_assistant.handlers.commands import (
     delete_contact,
     change_language,
     restore_command,
+    hello,
     # show_help
 )
 
@@ -62,7 +63,8 @@ def main():
             break
 
         elif command == "hello":  # hello – вітання від бота.
-            view.display_message(translate("help_prompt"))
+            view.display_message(hello())
+            # view.display_message(translate("help_prompt"))
 
         elif command == "add":
             view.display_message(add_contact(args, book))
