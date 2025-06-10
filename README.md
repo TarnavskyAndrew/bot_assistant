@@ -12,17 +12,22 @@ Here I learn, practice and improve my coding skills.
 *A Python console bot for contact management, with backup support, data validation and multilingual support.*
 
 
-## Possibilities
+## Features
 
-- Add/delete/edit contacts
-- Search by name and phone number
-- Display all contacts
-- Backup
-- Command line support
+- Add, change, delete contacts
 - Number validation
-- Multilingual interface (UA/EN)
+- Support for multiple phone numbers with region codes
+- Display all contacts
+- Add and show birthdays, see upcoming ones
+- Multilingual: English and Ukrainian
+- Automatic backup and restore
+- Personalized greeting based on last visit
+- Random "good mood" message with each greeting
 - Extensible architecture
+- Command line support
 
+## Supported Commands
+Use the `help` command inside the bot to view all available commands.
 
 ### Functional Overview
 
@@ -80,12 +85,14 @@ The project is in progress and will be improved.
 
 ### Run the bot
 
-`pip install poetry`
-`poetry install`
-`poetry shell`
-`poetry run run-bot`
+```bash
+git clone https://github.com/TarnavskyAndrew/bot_assistant
+```
 
-https://github.com/TarnavskyAndrew/bot_assistant
+- `pip install poetry`
+- `poetry install`
+- `poetry shell`
+- `poetry run run-bot`
 
 ---
 
@@ -95,18 +102,22 @@ You can run the bot in an isolated Docker container:
 
 #### 1. Build the Docker image
 ```bash
-docker build -t tarnavsky/bot_assistant:v1.2 .
+docker build -t tarnavsky/bot_assistant:latest .
+```
+
+#### Or pull the pre-built image
+```bash
+docker pull tarnavsky/bot_assistant:latest
 ```
 
 #### 2. Run the bot interactively
 ```bash
-docker run -it tarnavsky/bot_assistant:v1.2
+docker run -it tarnavsky/bot_assistant:latest
 ```
 
 > Make sure you're in the root project directory and Docker is installed and running.
 
+```bash
 https://hub.docker.com/repository/docker/tarnavsky/bot_assistant
-
-
 
 </details>
