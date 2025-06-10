@@ -4,13 +4,6 @@
 ## Changelog
 All notable changes to this project will be documented in this file.
 
----
-# Personal CLI assistant for managing contacts. Built with Python.
-
-
-## Changelog
-All notable changes to this project will be documented in this file.
-
 <details>
 <summary>Bot Assistant — Changelog</summary>
 
