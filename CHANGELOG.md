@@ -11,6 +11,8 @@ All notable changes to this project will be documented in this file.
 <details>
 <summary>[1.2.0] - 2025-06-10</summary>
 
+---
+
 ## [1.2.0] - 2025-06-10
 ### Added
 `hello` command enhancements:
@@ -29,6 +31,8 @@ All notable changes to this project will be documented in this file.
 <details>
 <summary>[1.1.0] - 2025-06-05</summary>
 
+---
+
 ## [1.1.0] - 2025-06-05
 ### Added
 - Logging for help and other core commands
@@ -44,6 +48,8 @@ Refactored `help` command:
 
 <details>
 <summary>[1.0.0] - 2025-06-01</summary>
+
+---
 
 ## [1.0.0] - 2025-06-01
 ### Added
