@@ -83,6 +83,14 @@ Here's what it can do:
 
 The project is in progress and will be improved.
 
+---
+</details>
+
+
+<details>
+<summary>Bot Assistant — Run the bot</summary>
+
+---
 
 ### Run the bot
 
